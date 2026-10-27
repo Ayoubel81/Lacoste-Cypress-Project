@@ -12,6 +12,7 @@ module.exports = defineConfig({
       openMode: 0,
     },
     video: true,
+    videoUploadOnPasses: false,
     screenshotOnRunFailure: true,
   },
 });
