@@ -12,7 +12,8 @@ jobs:
       - uses: cypress-io/github-action@v6
         with:
           config: video=true,screenshotOnRunFailure=true
+      - uses: actions/upload-artifact@v4
           path: |
-            cypress/screenshots/
-            cypress/videos/
-          if-no-files-found: ignore
+              cypress/screenshots/
+              cypress/videos/
+      
