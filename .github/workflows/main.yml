@@ -16,5 +16,4 @@ jobs:
         path: |
             cypress/screenshots/
             cypress/videos/
-        if-no-files-found: ignore
       
