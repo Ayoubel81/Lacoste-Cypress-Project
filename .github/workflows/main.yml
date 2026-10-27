@@ -12,3 +12,7 @@ jobs:
       - uses: cypress-io/github-action@v6
         with:
           config: video=true,screenshotOnRunFailure=true
+          path: |
+            cypress/screenshots/
+            cypress/videos/
+          if-no-files-found: ignore
